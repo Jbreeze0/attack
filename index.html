@@ -411,22 +411,22 @@
           <div class="content has-text-justified">
           <!-- TODO: Replace with your paper abstract -->
           <p>
-            <b>What does OoD (Out-of-Distribution) refer to?</b>
+            <b>What does OoD refer to?</b>
           </p>
           <p>
-            Entities or obstacles that do not appear in the training data, or appear only at extremely low frequencies
+            Entities or obstacles that do not appear in the training data, or appear only at extremely low frequencies.
           </p>
           <p>
-            As a result, the model cannot adequately learn their appearance, geometry, interaction patterns, or associated risk profiles
+            As a result, the model cannot adequately learn their appearance, geometry, interaction patterns, or associated risk profiles.
           </p>
           <p>
-            Such inputs are likely to trigger:<hr>increased perception uncertainty, unstable planning behavior, control oscillations, and insufficient risk-avoidance responses
+            Such OoD inputs are likely to cause the model to exhibit increased perception uncertainty, unstable planning behavior, and insufficient risk-avoidance responses.
           </p>
           <p>
             <b>Why stratify OoD by morphological complexity?</b>
           </p>
           <p>
-            Even for the same OoD entity category, conventional intact forms and abnormal or damaged forms pose substantially different levels of difficulty for autonomous driving models
+            Even for the same OoD entity category, conventional intact forms and abnormal or damaged forms pose substantially different levels of difficulty for autonomous driving models.
           </p>
           <p>
             This helps identify vulnerabilities in the model’s ability to handle objects with abnormal poses.
@@ -438,6 +438,54 @@
   </div>
 </section>
 <!-- End youtube video -->
+
+
+
+<section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container">
+      <!-- Paper video. -->
+      <h2 class="title is-3">Benchmarks</h2>
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <div class="content has-text-justified">
+          <!-- TODO: Replace with your paper abstract -->
+          <p>
+            <b>Benchmark 1: Simple-form OoD</b>
+          </p>
+          <p>
+            The entity category does not appear in the training data or appears only at extremely low frequencies.
+          </p>
+          <p>
+            The entity appears in its conventional, intact, and stable form.
+          </p>
+          <p>
+            No extreme poses or structural damage are involved.
+          </p>
+          <p>
+            Examples:<hr>An upright, intact mailbox<hr>An upright, intact streetbarrier
+          </p>
+          <p>
+            <b>Benchmark 2: Complex-form OoD</b>
+          </p>
+          <p>
+            The entity category does not appear in the training data or appears only at extremely low frequencies.
+          </p>
+          <p>
+            However, the entity appears in an abnormal, extreme, or damaged form.
+          </p>
+          <p>
+            The morphological complexity is significantly higher than in Benchmark 1.
+          </p>
+          <p>
+            Examples:<hr>A tipped-over mailbox<hr>A pedestrian lying on the ground
+          </p>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
 
 <!-- Video carousel -->
