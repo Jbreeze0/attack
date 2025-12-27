@@ -405,14 +405,33 @@
   <div class="hero-body">
     <div class="container">
       <!-- Paper video. -->
-      <h2 class="title is-3">Video Presentation</h2>
+      <h2 class="title is-3">OoD Definition</h2>
       <div class="columns is-centered has-text-centered">
         <div class="column is-four-fifths">
-          
-          <div class="publication-video">
-            <!-- TODO: Replace with your YouTube video ID -->
-            <iframe src="https://www.youtube.com/embed/JkaxUblCGz0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-          </div>
+          <div class="content has-text-justified">
+          <!-- TODO: Replace with your paper abstract -->
+          <p>
+            <b>What does OoD (Out-of-Distribution) refer to?</b>
+          </p>
+          <p>
+            Entities or obstacles that do not appear in the training data, or appear only at extremely low frequencies
+          </p>
+          <p>
+            As a result, the model cannot adequately learn their appearance, geometry, interaction patterns, or associated risk profiles
+          </p>
+          <p>
+            Such inputs are likely to trigger:<hr>increased perception uncertainty, unstable planning behavior, control oscillations, and insufficient risk-avoidance responses
+          </p>
+          <p>
+            <b>Why stratify OoD by morphological complexity?</b>
+          </p>
+          <p>
+            Even for the same OoD entity category, conventional intact forms and abnormal or damaged forms pose substantially different levels of difficulty for autonomous driving models
+          </p>
+          <p>
+            This helps identify vulnerabilities in the model’s ability to handle objects with abnormal poses.
+          </p>
+        </div>
         </div>
       </div>
     </div>
